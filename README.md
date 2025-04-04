@@ -26,19 +26,12 @@ Testing the webserver.
 from http.server import HTTPServer, BaseHTTPRequestHandler
 
 content = """
-
-<html>
-    
+<html>    
 <title>Top Software Industries</title>
-
 <body>
-    
 <table border="2"cellspacing="10"cellpadding="6">
-    
 <caption>Top 5 Revenue Generating Software Companies </caption>
-
 <tr>
-    
 <th>s.no</th>
 <th>companies</th>
 <th>revenue</th>
